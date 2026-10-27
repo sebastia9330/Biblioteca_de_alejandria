@@ -75,8 +75,3 @@ Para probar la aplicación rápidamente después de encenderla:
 ## 👥 Autores y Colaboradores
 * **Juan Pérez** - *Desarrollador Principal* - [GitHub de Juan](https://github.com)
 * **María López** - *Diseñadora UI/UX* - [GitHub de María](https://github.com)
-
-
-
-#Participantes
-## Juan rigoberto
