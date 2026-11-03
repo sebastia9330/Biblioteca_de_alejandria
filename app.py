@@ -1,14 +1,42 @@
-"""
-Punto de entrada del Sistema de Gestión de Biblioteca
-Biblioteca de Alejandría.
-"""
+import streamlit as st
 
+# Configuración general de la aplicación
+st.set_page_config(
+    page_title="Biblioteca de Alejandría",
+    page_icon="📚",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-def main():
-    """Inicia la aplicación."""
-    print("Biblioteca de Alejandría")
-    print("Estructura inicial del proyecto creada.")
+# Título de la aplicación
+st.title("📚 Biblioteca de Alejandría")
 
+st.write(
+    "Sistema de gestión y administración de una biblioteca."
+)
 
-if __name__ == "__main__":
-    main()
+# Navegación
+paginas = {
+    "Inicio": [],
+    "Gestión": [
+        st.Page("interfaz/paginas/autores.py", title="Autores"),
+        st.Page("interfaz/paginas/editoriales.py", title="Editoriales"),
+        st.Page("interfaz/paginas/libros.py", title="Libros"),
+        st.Page("interfaz/paginas/usuarios.py", title="Usuarios"),
+        st.Page("interfaz/paginas/prestamos.py", title="Préstamos"),
+    ]
+}
+
+# Página principal
+pagina_inicio = st.Page(
+    "interfaz/inicio.py",
+    title="Inicio",
+    default=True
+)
+
+# Crear navegación
+navegacion = st.navigation(
+    [pagina_inicio] + paginas["Gestión"]
+)
+
+navegacion.run()
