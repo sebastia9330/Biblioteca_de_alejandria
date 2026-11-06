@@ -1,77 +1,82 @@
-# 🚀 Proyecto Demo: Gestor de Tareas (TaskMaster)
+# 📚 Biblioteca de Alejandría
 
-Una breve descripción de una o dos líneas que explique **qué hace** el proyecto. Por ejemplo: *Esta es una aplicación web y API diseñada para organizar tareas diarias, gestionar equipos de trabajo y optimizar la productividad de forma visual.*
+### ✨ Un espacio para organizar y gestionar libros de forma sencilla
 
----
+¡Bienvenidos a **Biblioteca de Alejandría**! 📖
 
-## 📋 Tabla de Contenidos
-* [Características Principales](#-características-principales)
-* [Requisitos Previos](#-requisitos-previos)
-* [Instalación y Configuración](#-instalación-y-configuración)
-* [Cómo Usar el Proyecto](#-cómo-usar-el-proyecto)
-* [Tecnologías Utilizadas](#%EF%B8%8F-tecnologías-utilizadas)
-* [Autores y Colaboradores](#-autores-y-colaboradores)
+Este proyecto nace como una propuesta para facilitar la organización de la información de una biblioteca. A través de una aplicación, buscamos que registrar, consultar y actualizar los datos de los libros sea una tarea más práctica y ordenada.
 
----
+## 🎯 ¿Cuál es nuestro objetivo?
 
-## ✨ Características Principales
-* **Autenticación Segura:** Registro e inicio de sesión de usuarios.
-* **Tablero Kanban:** Creación, edición y arrastre de tareas entre columnas.
-* **Notificaciones:** Alertas automáticas cuando una tarea esté cerca de vencer.
-* **Modo Oscuro:** Interfaz amigable para trabajar de noche.
+Crear una aplicación que ayude a organizar la información de los libros y facilite su consulta, aplicando los conocimientos que hemos aprendido en Ingeniería de Sistemas.
 
----
+## 🛠️ ¿Qué puedes encontrar?
 
-## 📌 Requisitos Previos
-Antes de instalar este proyecto, asegúrate de tener instalado en tu computadora:
-* [Node.js](https://nodejs.org) (Versión 18 o superior)
-* [Git](https://git-scm.com)
-* Un editor de código como [VS Code](https://visualstudio.com)
+Entre las funciones contempladas en el proyecto están:
 
----
+- 📋 Consultar los libros registrados.
+- ➕ Agregar nuevos libros.
+- 🔎 Buscar información de un libro.
+- ✏️ Modificar registros.
+- 🗑️ Eliminar libros.
+- 📦 Identificar libros con pocas unidades disponibles.
+- 💾 Guardar la información del inventario.
 
-## 🛠️ Instalación y Configuración
+*Nota: las funciones disponibles dependen de la versión actual de la aplicación.*
 
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+## 💻 Tecnologías utilizadas
 
-1. **Clona el repositorio:**
+- 🐍 **Python:** lenguaje de programación del proyecto.
+- 🌐 **Streamlit:** herramienta para crear la interfaz de la aplicación.
+- 🐙 **GitHub:** plataforma para guardar y compartir el código del proyecto.
+
+## 🚀 ¿Cómo ejecutar el proyecto?
+
+Si ya tienes Python instalado, puedes seguir estos pasos desde la terminal, ubicada en la carpeta del proyecto:
+
+1. Instala las dependencias:
+
    ```bash
-   git clone https://github.com
+   pip install -r requirements.txt
    ```
 
-2. **Entra a la carpeta del proyecto:**
+2. Ejecuta la aplicación:
+
    ```bash
-   cd tu-repositorio
+   streamlit run app.py
    ```
 
-3. **Instala las dependencias necesarias:**
-   ```bash
-   npm install
-   ```
+3. Abre en tu navegador la dirección local que indique Streamlit. 🎉
 
-4. **Inicia el servidor de desarrollo:**
-   ```bash
-   npm run dev
-   ```
-   *El proyecto se abrirá automáticamente en tu navegador en la dirección `http://localhost:3000`.*
+## 📁 Estructura del proyecto
+
+La organización puede variar según la versión del repositorio. Actualmente, el proyecto contempla archivos y carpetas como estos:
+
+```text
+Biblioteca-de-Alejandria/
+├── database/
+├── repositorios/
+├── servicios/
+├── sql/
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+## 👥 Nuestro equipo
+
+- **Sebastián Felipe Carrero Ortiz**
+- **Juan Rigoberto Rojas Gacha**
+- **Laura Valentina Bernal Palacios**
+- **Michaels Dayanna Ríos Ruiz**
+
+## 🎓 Sobre el proyecto
+
+Proyecto académico de **Ingeniería de Sistemas** de la Corporación Unificada Nacional de Educación Superior (CUN), desarrollado como parte de las actividades de formación.
+
+📅 **Fecha de entrega:** 8 de noviembre de 2026.
 
 ---
 
-## 🚀 Cómo Usar el Proyecto
-Para probar la aplicación rápidamente después de encenderla:
-1. Crea una cuenta nueva en el botón "Registrarse".
-2. Haz clic en **"Nueva Tarea"** en la esquina superior derecha.
-3. Escribe un título, arrástrala a la columna "En Progreso" y observa cómo cambia su estado.
+💜 *Aprender, crear y mejorar una idea paso a paso también hace parte del desarrollo de software.*
 
----
-
-## ⚙️ Tecnologías Utilizadas
-* **Frontend:** React, Tailwind CSS.
-* **Backend:** Node.js, Express.
-* **Base de Datos:** MongoDB.
-
----
-
-## 👥 Autores y Colaboradores
-* **Juan Pérez** - *Desarrollador Principal* - [GitHub de Juan](https://github.com)
-* **María López** - *Diseñadora UI/UX* - [GitHub de María](https://github.com)
