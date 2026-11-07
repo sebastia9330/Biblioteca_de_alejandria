@@ -206,6 +206,24 @@ Presenta los libros que cumplen la condición.
 
 Resultado esperado: el usuario puede identificar los registros que requieren revisión o reposición.
 
+![interfaz de inicio](image.png)
+![codigo de la interfaz de inicio](image-1.png)
+![gestion de autores, registrar autor](image-2.png)
+![edicion de autores](image-4.png)
+![eliminar un autor](image-5.png)
+![codigo interfaz autores](image-6.png)
+![gestion de libros, registrar un nuevo libro](image-7.png)
+![editar un libro](image-8.png)
+![eliminar un libro](image-9.png)
+![codigo interfaz de la gestion de libros](image-10.png)
+![gestion de usarios, registrar un nuevo](image-11.png)
+![editar un usuario](image-12.png)
+![activar o desactivar un usario](image-13.png)
+![interfaz de gestion de prestamos, registrar prestamo](image-14.png)
+![registrar devolucion](image-15.png)
+![codigo de la interfaz de usarios](image-16.png)
+
+
 ## DIAGRAMA DE CLASES
 
 | Campo | Función |
